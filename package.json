@@ -2,7 +2,7 @@
   "name": "new-github-user-finder",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://anushanaik19.github.io/Github_User_Finder",
+  "homepage": ".",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
