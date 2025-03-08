@@ -1,0 +1,130 @@
+/* GitHubUserFinder.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .search-box {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-box input {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+  }
+  
+  .search-box button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
+  .search-box button:hover {
+    background-color: #ff5733;
+  }
+  
+  .loading {
+    color: #555;
+    font-size: 16px;
+  }
+  
+  .error {
+    color: red;
+    font-size: 16px;
+  }
+  
+  .profile-card {
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .profile-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #007bff;
+  }
+  
+  .profile-card h2 {
+    margin: 10px 0;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .profile-card .bio {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .profile-card .followers {
+    font-weight: bold;
+    margin-top: 5px;
+  }
+  
+  .repos-container {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .repos-container h3 {
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .repo-card {
+    background: white;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .repo-card a {
+    font-size: 16px;
+    font-weight: bold;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .repo-card p {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .repo-card .stars {
+    color: #f39c12;
+    font-weight: bold;
+    margin-top: 5px;
+  }
+  
